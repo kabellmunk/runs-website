@@ -4,7 +4,7 @@ permalink: /privacy/
 ---
 
 
-*Last updated: 8 October 2026*
+*Last updated: 17 October 2026*
 
 Runs reads the running you have already recorded in Apple Health and works out how far next
 week can go. It does that on your iPhone and Apple Watch. It has no account, no server, and
@@ -77,4 +77,4 @@ lives at this address.
 ## Contact
 
 Questions about this policy, or about what Runs does with anything:
-**[admin@kabellmunk.dk](mailto:admin@kabellmunk.dk)**.
+**[tobias@kabellmunk.dk](mailto:tobias@kabellmunk.dk)**.
