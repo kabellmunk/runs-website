@@ -4,7 +4,7 @@ permalink: /privacy/
 ---
 
 
-*Last updated: 17 October 2026*
+*Last updated: 20 October 2026*
 
 Runs reads the running you have already recorded in Apple Health and works out how far next
 week can go. It does that on your iPhone and Apple Watch. It has no account, no server, and
@@ -54,16 +54,22 @@ Apple Health, which is Apple's app and yours to manage.
 
 ## Maps
 
-One thing does leave your device. Whenever Runs draws a map — the small map beside a run in
-the list, and the large one at the top of a run — it asks Apple Maps for the imagery covering
-that area. Apple therefore receives a request for the part of the world your run took place
-in, the same as for any app that shows you a map, and Apple's handling of it is covered by
+One thing does leave your device: requests for the map under your runs. Runs draws its own
+maps — the small map beside a run in the list, the large one at the top of a run, and the
+still map you can share — from OpenStreetMap data, which it downloads from
+[OpenFreeMap](https://openfreemap.org) for the area a run covers. OpenFreeMap therefore
+receives a request for the part of the world your run took place in. It needs no account and
+is sent nothing else.
+
+Two things ask Apple Maps instead: the full-screen map when you switch it to Map or Satellite,
+and the picture a run is shared with. Apple then receives a request for that area, the same as
+for any app that shows you a map, and Apple's handling of it is covered by
 [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
-Each map is drawn once and then kept on your device, so scrolling past the same run again
-asks for nothing. Your route is never uploaded: it is drawn on top of the map on your device,
-and there is no server of ours for it to go to. The only other network use is Strava, and
-only for runs you push.
+Map data is kept on your device once downloaded, so scrolling past the same run again asks
+for nothing. Your route is never uploaded: it is drawn on top of the map on your device, and
+there is no server of ours for it to go to. The only other network use is Strava, and only
+for runs you push.
 
 ## Children
 
