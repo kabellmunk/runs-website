@@ -4,7 +4,7 @@ permalink: /privacy/
 ---
 
 
-*Last updated: 20 October 2026*
+*Last updated: 23 October 2026*
 
 Runs reads the running you have already recorded in Apple Health and works out how far next
 week can go. It does that on your iPhone and Apple Watch. It has no account, no server, and
@@ -61,6 +61,10 @@ still map you can share — from OpenStreetMap data, which it downloads from
 receives a request for the part of the world your run took place in. It needs no account and
 is sent nothing else.
 
+When you download a map for your Apple Watch, in Settings › Watch maps, Runs asks
+OpenFreeMap in the same way for a square of about 15 km around where you run most, then
+copies it from your iPhone to your own watch. Nothing else is involved.
+
 Two things ask Apple Maps instead: the full-screen map when you switch it to Map or Satellite,
 and the picture a run is shared with. Apple then receives a request for that area, the same as
 for any app that shows you a map, and Apple's handling of it is covered by
@@ -70,6 +74,17 @@ Map data is kept on your device once downloaded, so scrolling past the same run 
 for nothing. Your route is never uploaded: it is drawn on top of the map on your device, and
 there is no server of ours for it to go to. The only other network use is Strava, and only
 for runs you push.
+
+## Location, on the watch
+
+The Runs watch app has a map you can carry offline, and it shows where you are on it. The
+first time you open that map, the watch asks to use your location while the app is in use;
+it asks for nothing in the background. Your position is read only while the map is on
+screen, drawn on it there, and used for nothing else: it is never stored, and never leaves
+the watch — not to your iPhone, not to Strava, not to anyone. If you say no, the map still
+works, without the dot. You can change your mind at any time in the watch's
+**Settings → Privacy & Security → Location Services → Runs**. The iPhone app never asks for
+your location: its routes come from Apple Health.
 
 ## Children
 
