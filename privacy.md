@@ -35,8 +35,9 @@ given and says so plainly when something is missing.
   linking needs it. The two runs are left as they are. Runs never writes anything else, and
   never without you asking.
 - **It collects nothing.** Runs has no server and no account. Your workouts, readings and
-  routes go nowhere unless you push a run to Strava yourself, under Settings → Experimental;
-  then that run's route, heart rate and times go to your own Strava account, and nowhere else.
+  routes go nowhere but your own Apple Watch unless you push a run to Strava yourself, under
+  Settings → Experimental; then that run's route, heart rate and times go to your own Strava
+  account, and nowhere else.
 - **No analytics, no advertising, no tracking.** There is no analytics framework in the app,
   no advertising identifier, and nothing that follows you between apps or websites.
 - **Nothing is sold or shared.** There is no one to sell it to.
@@ -63,7 +64,8 @@ is sent nothing else.
 
 When you download a map for your Apple Watch, in Settings › Watch maps, Runs asks
 OpenFreeMap in the same way for a square of about 15 km around where you run most, then
-copies it from your iPhone to your own watch. Nothing else is involved.
+copies it from your iPhone to your own watch, with the routes of your runs across that
+square, so the watch can show where you have run. Nothing else is involved.
 
 Two things ask Apple Maps instead: the full-screen map when you switch it to Map or Satellite,
 and the picture a run is shared with. Apple then receives a request for that area, the same as
