@@ -63,9 +63,10 @@ receives a request for the part of the world your run took place in. It needs no
 is sent nothing else.
 
 When you download a map for your Apple Watch, in Settings › Watch maps, Runs asks
-OpenFreeMap in the same way for a square of about 15 km around where you run most, then
-copies it from your iPhone to your own watch, with the routes of your runs across that
-square, so the watch can show where you have run. Nothing else is involved.
+OpenFreeMap in the same way for a square of about 20 km — one fixed map tile — around where
+you run most, and for one coarser tile of the country round it, then copies them from your
+iPhone to your own watch, with the routes of your runs across that square, so the watch can
+show where you have run. Nothing else is involved.
 
 You can also ask for a map on the watch itself, where its map has none. The watch then asks
 your iPhone to download that square, as above; or, with your iPhone out of reach, the watch
@@ -74,8 +75,8 @@ connection. Either way OpenFreeMap receives requests for that square and nothing
 your iPhone keeps a note of the square so the map can be removed from either device.
 
 Three things ask Apple Maps instead: the full-screen map when you switch it to Map or
-Satellite, the picture a run is shared with, and the name the watch gives a map you ask for
-there — the part of town at its centre. Apple then receives a request for that area, the same
+Satellite, the picture a run is shared with, and the name of a watch map where the map's own
+data names no place on it — the part of town at its centre. Apple then receives a request for that area, the same
 as for any app that shows you a map, and Apple's handling of it is covered by
 [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
@@ -92,7 +93,7 @@ it asks for nothing in the background. Your position is read only while the map 
 screen, drawn on it there, and used for nothing else: it is never stored, and never leaves
 the watch — not to your iPhone, not to Strava, not to anyone. The one exception is yours to
 make: when you tap Download on the watch's map, the middle of the map — which may be where
-you are — is where the square to download is centred, and goes, as described under Maps, to
+you are — picks the map tile to download, and goes, as described under Maps, to
 your iPhone, to OpenFreeMap and to Apple Maps. If you say no, the map still
 works, without the dot. You can change your mind at any time in the watch's
 **Settings → Privacy & Security → Location Services → Runs**. The iPhone app never asks for
